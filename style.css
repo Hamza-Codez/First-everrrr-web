@@ -1,0 +1,109 @@
+    /* CSS reset */
+    body {
+      color: white;
+      margin: 0;
+      padding: 0;
+      background: url("img/boxer-1984344_1280.jpg");
+      height: 1000px;
+      font-family: "Bebas Neue", sans-serif;
+    }
+    /* ... (other styles) ... */
+    .left div{
+      padding-left: 29px;
+      font-size: larger;
+    }
+    .left {
+      display: inline-block;
+      /* border: 2px solid red; */
+      position: absolute;
+      left: 60px;
+      top: 20px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+    }
+    .mid {
+      display: block;
+      width: 540px;
+      margin: 20px auto;
+      /* border: 2px solid green; */
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 0px;
+      display: inline-block;
+      /* border: 2px solid yellow; */
+      top: 20px;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .navbar li a {
+      color: aliceblue;
+      text-decoration: none;
+      padding: 22px;
+      font-family: "Bebas Neue";
+      font-weight: bold;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: gray;
+    }
+    .left img {
+      width: 59px;
+      border-radius: 50px;
+      margin-left: 30px;
+    }
+    .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 1px 11px;
+      border: 2px solid gray;
+      border-radius: 7px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: "Bebas Neue", sans-serif;
+    }
+    .btn:hover {
+      background-color: rgb(90, 86, 86);
+      font-size: 17px;
+    }
+    .container {
+      border: 2px solid gray;
+      margin: 106px 80px;
+      padding: 25px;
+      width: 38%;
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 15px;
+    }
+    .formgroup input{
+      text-align:   center;
+      display: block;
+      width: 414px;
+      padding: 0px;
+      border: 1px solid black;
+      margin: 6px auto;
+      font-size: 21px;
+      border-radius: 6px;
+    }
+    .container h1{
+      text-align: center;
+    }
+    .container button{
+      display: block;
+      width: 418px;
+      margin: 20px auto;
+      padding: 4px;
+      font-size: larger;
+      border: 2px solid gray;
+    }
+    .container button:hover{
+      background-color: gray;
+    font-size: x-large;
+    }
